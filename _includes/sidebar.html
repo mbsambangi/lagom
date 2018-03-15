@@ -2,16 +2,19 @@
   <h1>Hi.</h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+    <img src="{{ site.url }}/assets/images/me.jpg" id="gravatar" alt="My photo"/>
     {% else %}
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
   <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
   <div id="bio">
-    <p>A brief bio or something witty.</p>
+    <p>$A Software | grep "Coder" | grep "Programmer" | grep "Developer" > Engineer</p>
     <p>
-      Edit me in <code>_includes/sidebar.html</code>
+      <code>"{{ site.data.theme.quote }}"</code>
+    </p>
+    <p align="right">
+      <code>-- {{ site.data.theme.quoteby }}</code>
     </p>
   </div>
   <div id="social">
