@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: rouge
-url: http://localhost:4000
+url: https://mbsambangi.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 disqusid: mbsambangi
