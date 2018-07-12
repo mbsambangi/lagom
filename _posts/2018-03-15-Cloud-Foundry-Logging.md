@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Application Logging & Log Draining in Cloud Foundry
+title: Application Logging & Log Draining in Cloud Foundry<img src="/assets/images/pcf_loggregator.png" style="width:100%"/>
 comments: True
 categories:
 - blog

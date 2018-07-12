@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploying a Spring Cloud Function on AWS Lambda Platform using Serverless Framework
+title: Deploying a Spring Cloud Function on AWS Lambda Platform using Serverless Framework<img src="/assets/images/blog2/lambda.png" style="width:100%"/>
 comments: False
 categories:
 - blog

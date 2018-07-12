@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TDD of Microserivce-Nanoservice Combo with a Contract (In other words, SpringBoot-SpringFunction Combo with a Spring RestDocs-Contract)
+title: TDD of Microserivce-Nanoservice Combo with a Contract (In other words, SpringBoot-SpringFunction Combo with a Spring RestDocs-Contract)<img src="/assets/images/blog2/cdc.png" style="width:100%"/>
 comments: False
 categories:
 - blog
