@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Application Logging & Log Draining in Cloud Foundry
+title: Blue-Green Deployments on Pivotal Cloud Foundry
 comments: True
 categories:
 - blog
