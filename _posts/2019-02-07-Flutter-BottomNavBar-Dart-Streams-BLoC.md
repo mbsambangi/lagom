@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flutter: Bottom Navigation Bar: Navigation using Dart Streams & BLoC Pattern<img src="/assets/images/flutter-blog/1_S4j5v4PwfukdxNutxB83BQ.gif" style="width:100%"/>
+title: Flutter- Bottom Navigation Bar- Navigation using Dart Streams & BLoC Pattern<img src="/assets/images/flutter-blog/1_S4j5v4PwfukdxNutxB83BQ.gif" style="width:100%"/>
 comments: False
 categories:
 - blog
