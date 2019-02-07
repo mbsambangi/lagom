@@ -30,6 +30,7 @@ A slightly better approach can be using a combination of
 - BLoC — to separate business logic from UI
 - Dart’s StreamController — to communicate the UI intents.
 - Flutter’s StreamBuilder — to trigger UI updates.
+
 ## Advantages
 
 - Using BLoC we can achieve clear separation of business logic from UI.
@@ -43,6 +44,7 @@ So, how can it be achieved?
 
 - Communication between the Scaffold’s bottomNavigationBar and body sections is done using Dart’s StreamController.
 - Use Flutter’s StreamBuilder to re-paint just the body section and the BottomNavigationBar.
+
 ### First thing we need a BLoC
 
 Let’s create a BLoC. This BLoC holds
@@ -52,6 +54,7 @@ Let’s create a BLoC. This BLoC holds
 - a default Navigation Bar Item enum for initial state.
 - a function which can be attached to onTap() gesture of BottomNavigationBar on UI side.
 - a method to close the stream.
+
 Lets go over each piece of BLoC in detail…
 
 - an enum to represent various BottomNavigationBarItems.
@@ -98,6 +101,7 @@ But, closing the Dart Stream when not needed is a best practice. This can be ach
 - A State
 
 <img src="/assets/images/flutter-blog/1_eI2PmOUKZLN-G_Fqw3y3AA.png" style="width:100%"/>
+
 State’s lifecycle methods initState() creates the BLoC and dispose() closes the stream when not needed.
 
 - A StreamBuilder to switch the body section by listening to the NavBar item stream of the BLoC.
